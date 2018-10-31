@@ -19,6 +19,7 @@
 		1B2BB57D2181A4D9004B77B3 /* CircularQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2BB57B2181A4D9004B77B3 /* CircularQueue.m */; };
 		1B5519D021806D98000C3BA3 /* LIFOLinkedListQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5519CF21806D98000C3BA3 /* LIFOLinkedListQueue.m */; };
 		1B5519D321806FC2000C3BA3 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5519D221806FC2000C3BA3 /* Node.m */; };
+		1B7703262186D70C0064E488 /* CircularQueueAtomic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7703252186D70C0064E488 /* CircularQueueAtomic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		1B5519CF21806D98000C3BA3 /* LIFOLinkedListQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIFOLinkedListQueue.m; sourceTree = "<group>"; };
 		1B5519D121806FC2000C3BA3 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		1B5519D221806FC2000C3BA3 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		1B7703242186D70C0064E488 /* CircularQueueAtomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularQueueAtomic.h; sourceTree = "<group>"; };
+		1B7703252186D70C0064E488 /* CircularQueueAtomic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularQueueAtomic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				1B067DCB217DA46500D8E9D2 /* NSArrayQueue.m */,
 				1B2BB57C2181A4D9004B77B3 /* CircularQueue.h */,
 				1B2BB57B2181A4D9004B77B3 /* CircularQueue.m */,
+				1B7703242186D70C0064E488 /* CircularQueueAtomic.h */,
+				1B7703252186D70C0064E488 /* CircularQueueAtomic.m */,
 				1B5519CE21806D98000C3BA3 /* LIFOLinkedListQueue.h */,
 				1B5519CF21806D98000C3BA3 /* LIFOLinkedListQueue.m */,
 				1B2BB5782181A19A004B77B3 /* FIFOLinkedListQueue.h */,
@@ -186,6 +191,7 @@
 				1B2BB57A2181A19A004B77B3 /* FIFOLinkedListQueue.m in Sources */,
 				1B2BB57D2181A4D9004B77B3 /* CircularQueue.m in Sources */,
 				1B067DC3217DA44500D8E9D2 /* main.m in Sources */,
+				1B7703262186D70C0064E488 /* CircularQueueAtomic.m in Sources */,
 				1B067DCF217DB20600D8E9D2 /* CircularQueueUsingLinkedList.m in Sources */,
 				1B067DB5217DA44400D8E9D2 /* AppDelegate.m in Sources */,
 			);

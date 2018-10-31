@@ -12,6 +12,7 @@
 #import "LIFOLinkedListQueue.h"
 #import "FIFOLinkedListQueue.h"
 #import "CircularQueue.h"
+#import "CircularQueueAtomic.h"
 
 @interface ViewController ()
 
@@ -34,6 +35,11 @@
     
     {
         CircularQueue *queue = [[CircularQueue alloc] init];
+        [self testCircularQueue:queue];
+    }
+    
+    {
+        CircularQueueAtomic *queue = [[CircularQueueAtomic alloc] init];
         [self testCircularQueue:queue];
     }
     
